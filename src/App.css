@@ -1,38 +1,655 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media screen and (max-width: 768px)
+{
+
+  div .container.header
+  {
+    width: 100%;
+  }
+
+  div .container
+  {
+    width: 100%;
+  }
+
+  div .menu
+  {
+    display: flex;
+    width: 100%;;
+    justify-content: flex-end;
+    align-self: center;
+
+    margin-left: 0;
+  }
+
+  div p.logo
+  {
+    margin: 10px;
+    white-space: nowrap;
+  }
+
+  h1#title
+  {
+    
+    width: 80%;
+    text-align: center;
+    display: flex;
+    align-self: center;
+  }
+
+  
+  h2#title2
+  {
+    width: 80%;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .rectangle_offer
+  {
+    display: flex;
+    align-self: center;
+  }
+
+  div.container.second_section
+  {
+    width: 100%;
+  }
+
+  .container.second_section #specialist
+  {
+    display: flex;
+    align-self: center;
+    white-space: normal;
+    justify-content: center;
+  }
+
+  div .ellipse1
+  {
+    width: 50%;
+  }
+
+  div .ellipse2
+  {
+    width: 50%;
+  }
+
+  div .person1
+  {
+    width: 100%;
+  }
+
+  div .person2
+  {
+    width: 100%;
+  }
+
+  div .services
+  {
+    width: 100%;
+  }
+  div h1#about
+  {
+    font-size: 36px;
+    width: 80%;
+    margin: 0 auto;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  footer
+  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer h2#footer_title
+  {
+    font-size: 20px;
+    margin-right: 0;
+    margin-left: 0px;
+  }
+
+  .fab.fa-instagram.fa-2x
+  {
+    margin-left: 200px;
+    display: flex;
+    justify-self: flex-end
+  }
+
+  .fab.fa-facebook-square.fa-2x 
+  {
+    /* display: none;
+    justify-content: space-evenly; */
+  }
+
+  div .box-container
+  {
+    width: 50%;
+  }
+
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 576px)
+{
+
+  div .container.header
+  {
+    width: 100%;
+  }
+  div p.logo
+  {
+    margin-left: 20px;
+    margin-top: 12.5px;
+  }
+
+
+  h1#title
+  {
+    float: left;
+    width: 90%;
+    margin-left: 20px;
+    
+  }
+
+  h2#title2
+  {
+    float: left;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 120px;
+  }
+
+  .rectangle_offer
+  {
+    float: left;
+    margin-left: 20px;
+  }
+
+  div .menu
+  {
+    display: none;
+  }
+
+  div.container.second_section
+  {
+    width: 100%;
+  }
+
+  .container
+  {
+    width: 100%;
+    align-items: center;
+  }
+
+  div .person1
+  {
+    width: 100%;
+  }
+
+  div .person2
+  {
+    width: 100%;
+  }
+
+  .person1 p
+  {
+    float: left;
+    display: inline;
+  }
+
+  div .ellipse1
+  {
+    margin-bottom: 90px;
+    width: 221px;
+  }
+
+  div .person1
+  {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-left: 0;
+  }
+  div .person-even
+  {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container.second_section
+  {
+    justify-content: center;
+    align-content: center;
+  }
+  .container.second_section #specialist
+  {
+    display: flex;
+    justify-content: center;
+    white-space: normal;
+  }
+
+  div .ellipse2
+  {
+    width: 221px;
+    margin-bottom: 90px;
+    margin-left: 0;
+  }
+
+
+  div .person .person-odd
+  {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  div .services
+  {
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    height: 1780px;
+  }
+
+
+  div h1#about
+  {
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  div .box-container
+  {
+    width: 100%;
+    height: 1000px;
+    grid-template-columns: 200px;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-gap: 50px;
+  }
+
+  div .small_ellipse{
+    position: relative;
+    top: -10px;
+    left: -60px;
+    width: 22px;
+    height: 22px;
+  }
+
+  footer
+  {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  footer h2#footer_title
+  {
+    font-size: 15px;
+    margin-right: 0;
+    margin-left: 20px;
+    width: 100%;
+  }
+
+  .fab.fa-facebook-square.fa-2x 
+  {
+    margin-right: 20px;
+    display: flex;
+    justify-self: flex-end;
+    justify-content: flex-end;
+    
+  }
+
+  .fab.fa-instagram.fa-2x
+  {
+    margin-left: 10px;
+    display: flex;
+    justify-self: flex-end
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.rectangle {
+  width: 100%;
+  height: 50px;
+  background-color: #4e4e4e;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #ffffff;
+}
+
+.first_section{
+  height: 100vh;
+}
+
+.container.first_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+#title {
+  width: 577px;
+  height: 46.11px;
+  margin: 25px 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 58px;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+#title2 {
+  width: 276px;
+  height: 23.13px;
+  margin: 50px 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.rectangle_offer {
+  width: 164px;
+  height: 40.74px;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  transition: 1s;
+  justify-content: center;
+  align-content: center;
+}
+
+.img {
+  display: flex;
+  background-image: url("fog.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 0 0;
+  
+}
+
+.rectangle_offer:hover {
+  background-color: white;
+}
+
+div a:hover {
+  color: black;
+}
+
+div a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+}
+
+header div a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 100px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#offer:hover {
+  color: black;
+}
+
+.container.second_section{
+  display: flex;
+  flex-direction: column; 
+}
+
+#specialist {
+  width: 386px;
+  height: 35px;
+  margin: 130px 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #152d41;
+}
+
+.ellipse1 {
+  width: 221px;
+  height: 221px;
+  
+  background: #c4c4c4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.person1 {
+  width: 866px;
+  height: 221px;
+  margin-left: 50px;
+}
+
+.person .person-even{
+  display: flex;
+  margin-bottom: 250px;
+}
+
+#description1 {
+  white-space: unset;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #000000;
+  display: flex;
+}
+
+div .person1 #p_1
+{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 38px;
+}
+
+.person .person-odd{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 200px;
+}
+
+.ellipse2 {
+  width: 221px;
+  height: 221px;
+  
+  background: #c4c4c4;
+  border-radius: 110px;
+  display: flex;
+  margin-left: 50px;
+}
+
+.person2 {
+  width: 866px;
+  height: 104px;
+}
+
+#description2 {
+  white-space: unset;
+  text-align: right;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #000000;
+  text-align: left;
+}
+
+.services{
+  width: 960px;
+  margin: 0 auto;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.background {
+  background-color: #405d78;
+}
+
+#about {
+  width: 501px;
+  height: 42px;
+  white-space: nowrap;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 58px;
+  color: #ffffff;
+  /* margin: 70px; */
+}
+
+.box-container {
+  display: grid;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-self: center;
+  width: 600px;
+  height: 600px;
+  grid-template-columns: 190px 190px 190px;
+  grid-template-rows: 190px 190px 190px;
+  grid-gap: 15%;
+  margin-top: 100px;
+}
+
+
+.box {
+  width: 190px;
+  height: 190px;
+  background-color: #fff;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  transition: 1s;
+}
+
+.small_ellipse{
+  position: relative;
+  top: -10px;
+  left: -60px;
+  width: 22px;
+  height: 22px;
+  background-color: #E07A64;
+  border-radius: 20px;
+}
+
+.box:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 71px;
+  align-items: center;
+  justify-content: center;
+  background: #4e4e4e;
+}
+
+#footer_title {
+  width: 394px;
+  height: 21px;
+  white-space: nowrap;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 19px;
+  margin-right: 750PX;
+  color: #ffffff;
+}
+
+.fab.fa-instagram {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fab.fa-facebook-square {
+  color: white;
+  margin-left: 20px;
 }
