@@ -62,7 +62,7 @@ function App() {
         <div className="services">
           <h1 id="about">Czym zajmuje sie nasza firma?</h1>
           <div className="box-container">
-            <Offer label={"Usługa 1"}/>
+            <Offer isNew={"Nowość"} isNewCircle={<div className="small_ellipse" div/>} label={"Usługa 1"}/>
             <Offer label={"Usługa 2"}/>
             <Offer label={"Usługa 3"}/>
             <Offer label={"Usługa 4"}/>

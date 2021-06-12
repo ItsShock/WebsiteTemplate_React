@@ -2,10 +2,12 @@ import React from 'react';
 
 
 
-function Offer({label, isNew}) {
+function Offer({label, isNew, isNewCircle}) {
   return(
     <div className="box">
+        {isNew}
         {label}
+        {isNewCircle}
     </div>
   );
 }
