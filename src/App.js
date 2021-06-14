@@ -1,5 +1,30 @@
-import Offer from './components/offer';
+import Offer from './components/Offer';
+import Persons from './components/Persons';
 import './App.css';
+
+const offers = [
+  {label: "Usługa 1" , isNew: true},
+  {label: "Usługa 2" , isNew: false},
+  {label: "Usługa 3" , isNew: false},
+  {label: "Usługa 4" , isNew: false},
+  {label: "Usługa 5" , isNew: false},
+  {label: "Usługa 6" , isNew: false},
+]
+
+const persons = [
+  {
+    name: "Imię i Nazwisko",
+    department: "dział",
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices in.',
+    isPersonEven: true
+  },
+  {
+    name: "Imię i Nazwisko",
+    department: "dział",
+    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices in.",
+    isPersonEven: false
+  },
+]
 
 function App() {
   return (
@@ -33,43 +58,15 @@ function App() {
         </section>
         <div className="container second_section">
           <h1 id="specialist">Nasi specjaliści</h1>
-          <div className="person">
-            <div className="person-even">
-              <div className="ellipse1"></div>
-              <div className="person1">
-                <p id="p_1" >Imię Nazwisko [ dział ]</p>
-                <p id="description1"> ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel
-                massa et lacus egestas cursus a non magna. Fusce scelerisque blandit
-                nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum
-                lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non
-                tincidunt libero ultrices in.</p>
-              </div>
-            </div>
-            <div className="person-odd">
-              <div className="ellipse2"></div>
-                <div className="person2">
-                  <p style={{fontFamily: 'Roboto', fontStyle: 'normal', fontWeight: 'bold', fontSize: '28px', marginBottom: '38px'}}>Imię Nazwisko [ dział ]</p>
-                  <p id="description2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel 
-                  massa et lacus egestas cursus a non magna. Fusce scelerisque blandit
-                  nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum
-                  lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non
-                  tincidunt libero ultrices in.</p>
-                </div>
-            </div>
-          </div>
+          {persons.map((p) => <Persons name={p.name} department={p.department} description={p.description} isPersonEven={p.isPersonEven}/>)}
         </div>
         <div className="background">
-        <div className="services">
-          <h1 id="about">Czym zajmuje sie nasza firma?</h1>
-          <div className="box-container">
-            <Offer isNew={"Nowość"} isNewCircle={<div className="small_ellipse" div/>} label={"Usługa 1"}/>
-            <Offer label={"Usługa 2"}/>
-            <Offer label={"Usługa 3"}/>
-            <Offer label={"Usługa 4"}/>
-            <Offer label={"Usługa 5"}/>
-            <Offer label={"Usługa 6"}/>
+          <div className="services">
+            <h1 id="about">Czym zajmuje sie nasza firma?</h1>
+            <div className="box-container">
+              {offers.map((o) => <Offer label={o.label} isNew={o.isNew} />)}
+            </div>
           </div>
-        </div>
       </div>
           <footer>
             <h2 id="footer_title">
@@ -78,7 +75,8 @@ function App() {
             <i style={{cursor: 'not-allowed'}} className="fab fa-instagram fa-2x"></i>
             <i style={{cursor: 'not-allowed'}} className="fab fa-facebook-square fa-2x"></i>
           </footer>
-      </div>
+      
+    </div>
   );
 }
 

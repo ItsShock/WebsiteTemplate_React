@@ -481,10 +481,9 @@ header div a {
   color: #152d41;
 }
 
-.ellipse1 {
+.persons .ellipse1 {
   width: 221px;
   height: 221px;
-  
   background: #c4c4c4;
   border-radius: 50%;
   display: flex;
@@ -497,12 +496,12 @@ header div a {
   margin-left: 50px;
 }
 
-.person .person-even{
+.person-even{
   display: flex;
   margin-bottom: 250px;
 }
 
-#description1 {
+div #description1 {
   white-space: unset;
   font-family: Roboto;
   font-style: normal;
@@ -521,7 +520,7 @@ div .person1 #p_1
   margin-bottom: 38px;
 }
 
-.person .person-odd{
+.person-odd{
   display: flex;
   flex-direction: row-reverse;
   margin-bottom: 200px;
@@ -610,8 +609,8 @@ div .person1 #p_1
 
 .small_ellipse{
   position: relative;
-  top: -110px;
-  left: -95px;
+  top: -105px;
+  left: -70px;
   width: 22px;
   height: 22px;
   background-color: #E07A64;
