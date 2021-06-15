@@ -5,10 +5,10 @@ html {
 @media screen and (max-width: 768px)
 {
 
-  div .container.header
+  /* div .container.header
   {
     width: 100%;
-  }
+  } */
 
   div .container
   {
@@ -70,19 +70,61 @@ html {
     justify-content: center;
   }
 
+  .persons
+  {
+    width: 100%;
+    display: flex;
+  }
+
+  .person-even{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  div #description1 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .person-odd{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    width: 100%;
+  }
+
+  div .person2 p
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  div #description2 {
+    margin-left: 65px; 
+    width: 80%;
+    text-align: center;
+  }
+
   div .ellipse1
   {
-    width: 50%;
+    
   }
 
   div .ellipse2
   {
-    width: 50%;
+    margin: 0 0;
   }
 
   div .person1
   {
     width: 100%;
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   div .person2
@@ -92,6 +134,7 @@ html {
 
   div .services
   {
+    margin-top: 50px;
     width: 100%;
   }
   div h1#about
@@ -106,10 +149,18 @@ html {
     text-align: center;
   }
 
+  div .person1 #p_1
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   footer
   {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
   }
 
@@ -122,16 +173,12 @@ html {
 
   .fab.fa-instagram.fa-2x
   {
-    margin-left: 200px;
     display: flex;
-    justify-self: flex-end
+    justify-self: flex-end;
+
   }
 
-  .fab.fa-facebook-square.fa-2x 
-  {
-    /* display: none;
-    justify-content: space-evenly; */
-  }
+  
 
   div .box-container
   {
@@ -211,7 +258,7 @@ html {
 
   div .ellipse1
   {
-    margin-bottom: 90px;
+    margin-bottom: 40px;
     width: 221px;
   }
 
@@ -241,10 +288,17 @@ html {
     white-space: normal;
   }
 
+
+  #description2
+  {
+    margin-left: 50px !important;
+  }
+
   div .ellipse2
   {
     width: 221px;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
+    margin-top: 50px;
     margin-left: 0;
   }
 
@@ -260,7 +314,7 @@ html {
   div .services
   {
     display: flex;
-    margin-top: 100px;
+    margin-top: 190px;
     width: 100%;
     height: 1780px;
   }
@@ -291,8 +345,8 @@ html {
 
   div .small_ellipse{
     position: relative;
-    top: -10px;
-    left: -60px;
+    top: -105px;
+    left: -72px;
     width: 22px;
     height: 22px;
   }
@@ -308,7 +362,6 @@ html {
   {
     font-size: 15px;
     margin-right: 0;
-    margin-left: 20px;
     width: 100%;
   }
 
