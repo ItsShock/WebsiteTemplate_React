@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WebsiteTemplate_React/static/css/main.f4b474dd.chunk.css",
+    "main.css": "/WebsiteTemplate_React/static/css/main.82d27295.chunk.css",
     "main.js": "/WebsiteTemplate_React/static/js/main.9793eaf3.chunk.js",
     "main.js.map": "/WebsiteTemplate_React/static/js/main.9793eaf3.chunk.js.map",
     "runtime-main.js": "/WebsiteTemplate_React/static/js/runtime-main.ca31b5da.js",
@@ -10,14 +10,14 @@
     "static/js/3.7345f104.chunk.js": "/WebsiteTemplate_React/static/js/3.7345f104.chunk.js",
     "static/js/3.7345f104.chunk.js.map": "/WebsiteTemplate_React/static/js/3.7345f104.chunk.js.map",
     "index.html": "/WebsiteTemplate_React/index.html",
-    "static/css/main.f4b474dd.chunk.css.map": "/WebsiteTemplate_React/static/css/main.f4b474dd.chunk.css.map",
+    "static/css/main.82d27295.chunk.css.map": "/WebsiteTemplate_React/static/css/main.82d27295.chunk.css.map",
     "static/js/2.2f7c4139.chunk.js.LICENSE.txt": "/WebsiteTemplate_React/static/js/2.2f7c4139.chunk.js.LICENSE.txt",
     "static/media/App.css": "/WebsiteTemplate_React/static/media/fog.ae8e2738.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ca31b5da.js",
     "static/js/2.2f7c4139.chunk.js",
-    "static/css/main.f4b474dd.chunk.css",
+    "static/css/main.82d27295.chunk.css",
     "static/js/main.9793eaf3.chunk.js"
   ]
 }
