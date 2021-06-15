@@ -2,10 +2,10 @@ import React from 'react';
 import './Persons.css';
 
 
-function Persons({name,department,description, isPersonEvenOrOdd=[1,2]}) {
+function Persons({name,department,description, isPersonEvenOrOdd=[]}) {
   return(
     <div className="persons">
-        { (isPersonEvenOrOdd === 1) 
+        { (isPersonEvenOrOdd % 2) 
         ?   <div className='person-even'>
                 <div className="ellipse1"></div>
                 <div className="person1">
