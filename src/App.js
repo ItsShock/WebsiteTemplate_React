@@ -1,5 +1,5 @@
 import Offer from './components/Offer';
-import Persons from './components/Persons';
+import Person from './components/Person';
 import './App.css';
 
 const offers = [
@@ -11,20 +11,19 @@ const offers = [
   {label: "Usługa 6" , isNew: false},
 ]
 
-const persons = [
+const people = [
   {
     name: "Imię i Nazwisko",
     department: "dział",
     description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices in.',
-    isPersonEven: 1
   },
   {
     name: "Imię i Nazwisko",
     department: "dział",
     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices in.",
-    isPersonEven: 2
   },
 ]
+
 
 function App() {
   return (
@@ -58,7 +57,7 @@ function App() {
         </section>
         <div className="container second_section">
           <h1 id="specialist">Nasi specjaliści</h1>
-          {persons.map((p) => <Persons name={p.name} department={p.department} description={p.description} isPersonEvenOrOdd={p.isPersonEven}/>)}
+          {people.map((p, idx) => <Person name={p.name} department={p.department} description={p.description} isEven={idx % 2 === 0}/>)}
         </div>
         <div className="background">
           <div className="services">

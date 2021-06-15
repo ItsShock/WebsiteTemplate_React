@@ -1,11 +1,11 @@
 import React from 'react';
-import './Persons.css';
+import './Person.css';
 
 
-function Persons({name,department,description, isPersonEvenOrOdd=[]}) {
+function Person({name, department, description, isEven}) {
   return(
     <div className="persons">
-        { (isPersonEvenOrOdd % 2) 
+        {   isEven  
         ?   <div className='person-even'>
                 <div className="ellipse1"></div>
                 <div className="person1">
@@ -27,4 +27,4 @@ function Persons({name,department,description, isPersonEvenOrOdd=[]}) {
 }
 
 
-export default Persons;
+export default Person;
