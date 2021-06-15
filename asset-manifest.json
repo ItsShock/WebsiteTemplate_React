@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/website_template_react/static/css/main.c1faff49.chunk.css",
-    "main.js": "/website_template_react/static/js/main.9793eaf3.chunk.js",
-    "main.js.map": "/website_template_react/static/js/main.9793eaf3.chunk.js.map",
-    "runtime-main.js": "/website_template_react/static/js/runtime-main.ad05e685.js",
-    "runtime-main.js.map": "/website_template_react/static/js/runtime-main.ad05e685.js.map",
-    "static/js/2.2f7c4139.chunk.js": "/website_template_react/static/js/2.2f7c4139.chunk.js",
-    "static/js/2.2f7c4139.chunk.js.map": "/website_template_react/static/js/2.2f7c4139.chunk.js.map",
-    "static/js/3.7345f104.chunk.js": "/website_template_react/static/js/3.7345f104.chunk.js",
-    "static/js/3.7345f104.chunk.js.map": "/website_template_react/static/js/3.7345f104.chunk.js.map",
-    "index.html": "/website_template_react/index.html",
-    "static/css/main.c1faff49.chunk.css.map": "/website_template_react/static/css/main.c1faff49.chunk.css.map",
-    "static/js/2.2f7c4139.chunk.js.LICENSE.txt": "/website_template_react/static/js/2.2f7c4139.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/website_template_react/static/media/fog.ae8e2738.jpg"
+    "main.css": "/WebsiteTemplate_React/static/css/main.f4b474dd.chunk.css",
+    "main.js": "/WebsiteTemplate_React/static/js/main.9793eaf3.chunk.js",
+    "main.js.map": "/WebsiteTemplate_React/static/js/main.9793eaf3.chunk.js.map",
+    "runtime-main.js": "/WebsiteTemplate_React/static/js/runtime-main.ca31b5da.js",
+    "runtime-main.js.map": "/WebsiteTemplate_React/static/js/runtime-main.ca31b5da.js.map",
+    "static/js/2.2f7c4139.chunk.js": "/WebsiteTemplate_React/static/js/2.2f7c4139.chunk.js",
+    "static/js/2.2f7c4139.chunk.js.map": "/WebsiteTemplate_React/static/js/2.2f7c4139.chunk.js.map",
+    "static/js/3.7345f104.chunk.js": "/WebsiteTemplate_React/static/js/3.7345f104.chunk.js",
+    "static/js/3.7345f104.chunk.js.map": "/WebsiteTemplate_React/static/js/3.7345f104.chunk.js.map",
+    "index.html": "/WebsiteTemplate_React/index.html",
+    "static/css/main.f4b474dd.chunk.css.map": "/WebsiteTemplate_React/static/css/main.f4b474dd.chunk.css.map",
+    "static/js/2.2f7c4139.chunk.js.LICENSE.txt": "/WebsiteTemplate_React/static/js/2.2f7c4139.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/WebsiteTemplate_React/static/media/fog.ae8e2738.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad05e685.js",
+    "static/js/runtime-main.ca31b5da.js",
     "static/js/2.2f7c4139.chunk.js",
-    "static/css/main.c1faff49.chunk.css",
+    "static/css/main.f4b474dd.chunk.css",
     "static/js/main.9793eaf3.chunk.js"
   ]
 }
