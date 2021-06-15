@@ -16,13 +16,13 @@ const persons = [
     name: "Imię i Nazwisko",
     department: "dział",
     description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices in.',
-    isPersonEven: true
+    isPersonEven: 1
   },
   {
     name: "Imię i Nazwisko",
     department: "dział",
     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices in.",
-    isPersonEven: false
+    isPersonEven: 2
   },
 ]
 
@@ -58,7 +58,7 @@ function App() {
         </section>
         <div className="container second_section">
           <h1 id="specialist">Nasi specjaliści</h1>
-          {persons.map((p) => <Persons name={p.name} department={p.department} description={p.description} isPersonEven={p.isPersonEven}/>)}
+          {persons.map((p) => <Persons name={p.name} department={p.department} description={p.description} isPersonEvenOrOdd={p.isPersonEven}/>)}
         </div>
         <div className="background">
           <div className="services">
